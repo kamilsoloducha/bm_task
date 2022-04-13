@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=518007&quot;&gt;Gulp&lt;/a&gt; and &lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=518004&quot;&gt;Bower&lt;/a&gt; for managing client-side libraries" xml:space="preserve">
+    <value>&lt;a href="https://go.microsoft.com/fwlink/?LinkId=518007"&gt;Gulp&lt;/a&gt; et &lt;a href="https://go.microsoft.com/fwlink/?LinkId=518004"&gt;Bower&lt;/a&gt; pour la gestion des bibliothèques côté client</value>
+  </data>
+  <data name="Add a Controller and View" xml:space="preserve">
+    <value>&lt;h1&gt;Home Version Ajouter un contrôleur et Vue (Add a Controller and View) Resources\Views\Book\Index.fr.resx &lt;/h1&gt;</value>
+  </data>
+  <data name="Application uses" xml:space="preserve">
+    <value>Utilisations d'application</value>
+  </data>
+  <data name="Bring in libraries from NuGet, Bower, and npm, and automate tasks using Grunt or Gulp." xml:space="preserve">
+    <value>Apportez dans les bibliothèques de NuGet , Bower , et NPM , et automatiser les tâches à l'aide Grunt ou Gulp .</value>
+  </data>
+  <data name="Home Page" xml:space="preserve">
+    <value>Page D'accueil</value>
+  </data>
+  <data name="How to" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps." xml:space="preserve">
+    <value>Découvrez comment la plate-forme Azure cloud de Microsoft vous permet de construire, déployer et applications Web à grande échelle .</value>
+  </data>
+  <data name="Learn how to build ASP.NET apps that can run anywhere." xml:space="preserve">
+    <value>Apprenez à créer des applications ASP.NET qui peuvent fonctionner n'importe où .</value>
+  </data>
+  <data name="Learn More" xml:space="preserve">
+    <value>Apprendre Encore Plus</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Prochain</value>
+  </data>
+  <data name="Package Management" xml:space="preserve">
+    <value>Gestion des Paquetages</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Précédent</value>
+  </data>
+  <data name="Sample pages using ASP.NET MVC 6" xml:space="preserve">
+    <value>Pages échantillon en utilisant ASP.NET MVC 6</value>
+  </data>
+  <data name="Theming using &lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkID=398939&quot;&gt;Bootstrap&lt;/a&gt;" xml:space="preserve">
+    <value>Thématisation aide &lt;a href="https://go.microsoft.com/fwlink/?LinkID=398939"&gt;Bootstrap&lt;/a&gt;</value>
+  </data>
+  <data name="There are powerful new features in Visual Studio for building modern web apps." xml:space="preserve">
+    <value>Il ya de puissantes nouvelles fonctionnalités de Visual Studio pour la création d'applications web modernes .</value>
+  </data>
+  <data name="Add an appsetting in config and access it in app." xml:space="preserve">
+    <value>Ajoutez un appsetting dans la configuration et y accéder à l'application .</value>
+  </data>
+  <data name="Add client packages using Bower." xml:space="preserve">
+    <value>Ajouter des packages de clients à l'aide Bower.</value>
+  </data>
+  <data name="Add packages using NuGet." xml:space="preserve">
+    <value>Ajouter paquets en utilisant NuGet.</value>
+  </data>
+  <data name="Client side development" xml:space="preserve">
+    <value>Le développement côté client</value>
+  </data>
+  <data name="Run &amp; Deploy" xml:space="preserve">
+    <value>Déployer &amp; Exécuter</value>
+  </data>
+  <data name="Run commands in your bash" xml:space="preserve">
+    <value>Exécuter des commandes dans votre bash</value>
+  </data>
+  <data name="Run your app" xml:space="preserve">
+    <value>Exécutez votre application</value>
+  </data>
+  <data name="Run your app on .NET Core" xml:space="preserve">
+    <value>Exécutez votre application sur .NET de base</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>Sécurité</value>
+  </data>
+  <data name="Target development, staging or production environment." xml:space="preserve">
+    <value>Cibler le développement, la mise en scène ou de l'environnement de production.</value>
+  </data>
+  <data name="Use logging to log a message." xml:space="preserve">
+    <value>Utilisez la journalisation pour enregistrer un message.</value>
+  </data>
+  <data name="Working with Data" xml:space="preserve">
+    <value>Utilisation des données</value>
+  </data>
+  <data name="Test" xml:space="presemp; Deploy" xml:space="preserve">
+    <value>Déployer &amp; Exécuter</value>
+  </data>
+  <data name="Run commands in your bash" xml:space="preserve">
+    <value>Exécuter des commandes dans votre bash</value>
+  </data>
+  <data name="Run your app" xml:space="preserve">
+    <value>Exécutez votre application</value>
+  </data>
+  <data name="Run your app on .NET Core" xml:space="preserve">
+    <value>Exécutez votre application sur .NET de base</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>Sécurité</value>
+  </data>
+  <data name="Target development, staging or production environment." xml:space="preserve">
+    <value>Cibler le développement, la mise en scène ou de l'environnement de production.</value>
+  </data>
+  <data name="Use logging to log a message." xml:space="preserve">
+    <value>Utilisez la journalisation pour enregistrer un message.</value>
+  </data>
+  <data name="Working with Data" xml:space="preserve">
+    <value>Utilisation des données</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Test pl</value>
+  </data>
+</root>

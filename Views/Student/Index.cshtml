@@ -1,0 +1,53 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@model StudentIndexViewModel
+
+@inject IViewLocalizer Localizer
+@{
+    var count = Model.Students.Count();
+}
+<p>
+    <a asp-action="Create">Add New</a>
+    @Localizer["Test"]
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Students[0].NickName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Students[0].Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Students)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NickName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div id="details-container">
+
+</div>
+
+@section Scripts{
+    <script>    
+        function detailsOnClick (id) {
+            $('#details-container').load('@Url.Action("DetailsPartial", "Student")', { id: id })
+        }
+
+        function hideDetails() {
+            $('#details-container').empty();
+        }
+    </script>
+}
