@@ -1,7 +1,9 @@
+@using Microsoft.AspNetCore.Mvc.Localization
 @model Student
 
+@inject IViewLocalizer Localizer
 <p>
-Create
+@Localizer["Create"]
 </p>
 
 <div class="row">
@@ -19,12 +21,12 @@ Create
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="@Localizer["AddNew"]" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">@Localizer["BackToList"]</a>
 </div>

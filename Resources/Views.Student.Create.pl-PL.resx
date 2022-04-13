@@ -117,10 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AddNew" xml:space="preserve">
+    <value>Dodaj nowy</value>
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Wróć do listy</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Stwórz</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Adres e-mail</value>
+  </data>
   <data name="NickName" xml:space="preserve">
     <value>Ksywka</value>
-  </data>
-  <data name="NickNameRequired" xml:space="preserve">
-    <value>Ksywka jest wymagana</value>
   </data>
 </root>

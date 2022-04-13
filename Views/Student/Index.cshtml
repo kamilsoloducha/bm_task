@@ -2,9 +2,6 @@
 @model StudentIndexViewModel
 
 @inject IViewLocalizer Localizer
-@{
-    var count = Model.Students.Count();
-}
 <p>
     <a asp-action="Create">@Localizer["AddNew"]</a>
 </p>

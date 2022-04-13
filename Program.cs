@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using System.Globalization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -22,14 +20,9 @@ builder.Services.AddMvc()
 
 builder.Services.Configure<RequestLocalizationOptions>(options =>
             {
-                var supportedCultures = new List<CultureInfo>
-                    {
-                        new CultureInfo("pl-PL"),
-                        new CultureInfo("en-GB")
-                    };
                 options.DefaultRequestCulture = new RequestCulture("pl-PL");
-                options.SupportedCultures = supportedCultures;
-                options.SupportedUICultures = supportedCultures;
+                options.SupportedCultures = CultureInfoSupport.SupprotedLangauges;
+                options.SupportedUICultures = CultureInfoSupport.SupprotedLangauges;
             });
 
 var app = builder.Build();
@@ -47,19 +40,13 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-var supportedCultures = new[]
-            {
-                new CultureInfo("pl-PL"),
-                new CultureInfo("en-GB")
-            };
-
 app.UseRequestLocalization(new RequestLocalizationOptions
 {
     DefaultRequestCulture = new RequestCulture("pl-PL"),
     // Formatting numbers, dates, etc.
-    SupportedCultures = supportedCultures,
+    SupportedCultures = CultureInfoSupport.SupprotedLangauges,
     // UI strings that we have localized.
-    SupportedUICultures = supportedCultures
+    SupportedUICultures = CultureInfoSupport.SupprotedLangauges
 });
 
 app.UseStaticFiles();

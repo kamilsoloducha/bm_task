@@ -61,6 +61,15 @@ namespace MvcTest.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Nick.
+        /// </summary>
+        public static string NickName {
+            get {
+                return ResourceManager.GetString("NickName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Nick name is required.
         /// </summary>
         public static string NickNameRequired {
