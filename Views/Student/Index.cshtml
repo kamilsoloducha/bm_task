@@ -6,17 +6,17 @@
     var count = Model.Students.Count();
 }
 <p>
-    <a asp-action="Create">Add New</a>
-    @Localizer["Test"]
+    <a asp-action="Create">@Localizer["AddNew"]</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Students[0].NickName)
+                @Localizer[@Html.DisplayNameFor(model => model.Students[0].NickName)]
+                
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Students[0].Email)
+                @Localizer[@Html.DisplayNameFor(model => model.Students[0].Email)]
             </th>
             <th></th>
         </tr>
